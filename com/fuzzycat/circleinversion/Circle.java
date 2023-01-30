@@ -47,7 +47,7 @@ public class Circle implements Drawable {
         return new double[] { xret, yret };
     }
     
-    // Is mouse as center control point
+    // Is mouse at center control point
     public boolean atCenter(double x, double y) {
         double xoff = x - this.x;
         double yoff = y - this.y;
